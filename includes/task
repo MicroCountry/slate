@@ -11,6 +11,10 @@
     "jobPhoneNumberIdList": [
         348,369
     ],
+    "transferPhoneNumber": [
+      "1523654789",
+      "1758426896"
+    ],
     "robotCallJob": {
         "alertUsers": [],
         "dailyEndTime": "21:00",
@@ -75,6 +79,13 @@
 <td>[1,2,3]</td>
 </tr>
 <tr>
+<td>transferPhoneNumber</td>
+<td>List</td>
+<td>选择转人工话术时必填</td>
+<td>转人工号码,触发转人工时轮训号码列表</td>
+<td>[&quot;1523654789&quot;,&quot;1758426896&quot;]</td>
+</tr>
+<tr>
 <td>name</td>
 <td>String</td>
 <td>是</td>
@@ -121,6 +132,13 @@
 <td>String</td>
 <td>是</td>
 <td>话术id</td>
+<td>139</td>
+</tr>
+<tr>
+<td>csStaffGroupId</td>
+<td>Long</td>
+<td>是</td>
+<td>坐席组id，通过话术API中获取人工介入标识。如果存在人工介入标识，需要传入坐席组Id</td>
 <td>139</td>
 </tr>
 <tr>
