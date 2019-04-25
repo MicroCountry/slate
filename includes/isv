@@ -49,6 +49,13 @@
 <td>回调URL</td>
 <td>http://www.baidu.com</td>
 </tr>
+<tr>
+<td>smsCallbackUrl</td>
+<td>String</td>
+<td>否</td>
+<td>短信回调地址</td>
+<td></td>
+</tr>
 </tbody></table>
 <h3 id='d981aa6fd7'>响应：</h3>
 <table><thead>
